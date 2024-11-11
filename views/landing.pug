@@ -1,0 +1,9 @@
+extends layout
+
+block append nav
+
+block layout-content
+  main
+    each joke in randomJoke
+      p #{joke.setup}
+      p #{joke.delivery}

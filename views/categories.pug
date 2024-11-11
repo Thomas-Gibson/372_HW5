@@ -1,0 +1,8 @@
+extends layout
+
+block append nav
+
+block layout-content
+  main
+    each category in categoryList
+      p #{category.name}

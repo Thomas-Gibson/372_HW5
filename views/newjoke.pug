@@ -1,0 +1,12 @@
+extends layout
+
+block append nav
+
+block layout-content
+  main
+    div#form-popup
+        form#form-container
+        h1 New Game
+        input#name(type="text", placeholder="setup", name="setup")
+        input#platform(type="text", placeholder="delivery", name="delivery")
+        input#genre(type="text", placeholder="category_id", name="category_id")
